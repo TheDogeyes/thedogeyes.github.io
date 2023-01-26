@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(247, 247, 247);
+    color: rgb(62, 62, 65);
+    font-family: Roboto, Arial;
+}
+
+h1 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.search_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.search_bar input {
+    padding-left: 10px;
+    height: 40px;
+    width: 400px;
+    border-style: none;
+    background-color: rgb(211, 211, 211);
+}
+
+.search_bar form button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(62, 62, 65);
+    color: rgb(247, 247, 247) ;
+    margin-left: 10px;
+    position: relative;
+}
